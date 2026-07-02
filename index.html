@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tinea | Jogo narrativo em pixel art</title>
+
+  <meta
+    name="description"
+    content="Tinea é um jogo narrativo 2D em pixel art sobre memória, luto, chuva, biblioteca, pequenos vestígios e histórias que permanecem depois que alguém parte."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="rain-layer" aria-hidden="true"></div>
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <button class="audio-toggle" type="button" aria-label="Ligar som ambiente">
+    ☔ Som da biblioteca
+  </button>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#inicio" class="logo">✦ Tinea</a>
+
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#biblioteca">Biblioteca</a>
+        <a href="#acervo">Acervo</a>
+        <a href="#atmosfera">Atmosfera</a>
+        <a href="#vibes">Vibes</a>
+        <a href="#inspiracoes">Inspirações</a>
+        <a href="#desenvolvimento">Devlog</a>
+        <a href="en.html" class="language-button">English</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-frame">
+        <p class="eyebrow">jogo narrativo em pixel art</p>
+
+        <h1>Tinea</h1>
+
+        <p class="hero-subtitle">
+          A biblioteca ainda guarda histórias.
+        </p>
+
+        <p class="hero-description">
+          Após a morte da mãe, uma mulher retorna à cidade natal para esvaziar
+          uma biblioteca fechada há meses. Entre livros, fotografias, bilhetes
+          e registros antigos, ela encontra memórias que talvez não devessem existir.
+        </p>
+
+        <div class="status-row">
+          <span>🌧 Site iniciado em 02/07/2026</span>
+          <span>Versão 1.0</span>
+          <span>Em desenvolvimento</span>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#sobre" class="primary-button">Entrar na biblioteca</a>
+          <a href="#acervo" class="secondary-button">Abrir o acervo</a>
+        </div>
+      </div>
+
+      <div class="hero-note">
+        <span>nota encontrada na recepção</span>
+        <p>“Algumas pessoas partem. Algumas permanecem. Algumas fazem as duas coisas.”</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="section-header">
+        <p class="section-label">01 — O livro</p>
+        <h2>Sobre o jogo</h2>
+      </div>
+
+      <div class="two-columns">
+        <div>
+          <p>
+            <strong>Tinea</strong> é um jogo narrativo 2D em pixel art,
+            desenvolvido na <strong>Godot Engine</strong>, com foco em exploração,
+            narrativa ambiental, puzzles e horror psicológico sutil.
+          </p>
+
+          <p>
+            A história acompanha uma protagonista que retorna à antiga biblioteca
+            de sua família após a morte da mãe. Enquanto organiza o local, ela
+            encontra objetos deixados por pessoas que passaram por ali ao longo
+            dos anos.
+          </p>
+
+          <p>
+            Cada item encontrado carrega uma pequena história: uma fotografia,
+            um bilhete, um livro esquecido, uma flor prensada, uma anotação feita
+            às pressas. Aos poucos, esses vestígios revelam não apenas a vida da
+            mãe, mas também a memória coletiva de uma comunidade.
+          </p>
+        </div>
+
+        <aside class="pixel-window">
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="window-content">
+            <p class="mini-title">arquivo interno</p>
+            <p>
+              Tinea é menos sobre resolver uma morte e mais sobre entender
+              o que permanece depois que alguém parte.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="biblioteca" class="section dark-section">
+      <div class="section-header">
+        <p class="section-label">02 — A biblioteca</p>
+        <h2>Um lugar que lembra</h2>
+      </div>
+
+      <p class="section-intro">
+        A biblioteca não é apenas um cenário. Ela funciona como um arquivo de
+        pequenas vidas, guardando objetos, registros e acontecimentos de pessoas comuns.
+      </p>
+
+      <div class="location-grid">
+        <article class="location-card">
+          <span class="room-number">01</span>
+          <h3>Recepção</h3>
+          <p>O primeiro contato com a biblioteca. Balcão, fichas antigas, registros de empréstimo e objetos deixados para trás.</p>
+        </article>
+
+        <article class="location-card">
+          <span class="room-number">02</span>
+          <h3>Corredor principal</h3>
+          <p>Estantes altas, silêncio, madeira antiga e livros que parecem ocupar mais espaço do que deveriam.</p>
+        </article>
+
+        <article class="location-card">
+          <span class="room-number">03</span>
+          <h3>Corredor infantil</h3>
+          <p>Desenhos, livros escolares, brinquedos esquecidos e memórias de crianças que cresceram dentro daquele espaço.</p>
+        </article>
+
+        <article class="location-card">
+          <span class="room-number">04</span>
+          <h3>Escritório da mãe</h3>
+          <p>O lugar mais íntimo da biblioteca. Cartas, anotações, fotografias e registros pessoais de Maria de Fátima.</p>
+        </article>
+
+        <article class="location-card">
+          <span class="room-number">05</span>
+          <h3>Depósito</h3>
+          <p>Caixas antigas, livros doados, arquivos incompletos e coisas que talvez tenham sido guardadas por tempo demais.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="acervo" class="section">
+      <div class="section-header">
+        <p class="section-label">03 — O acervo</p>
+        <h2>Objetos que contam histórias</h2>
+      </div>
+
+      <p class="section-intro">
+        Em Tinea, os colecionáveis não existem apenas para serem encontrados.
+        Cada objeto é uma lembrança, um fragmento de alguém, uma pequena marca
+        deixada na biblioteca.
+      </p>
+
+      <div class="collection-grid">
+        <article class="collection-card">
+          <span class="card-icon">📷</span>
+          <h3>Fotografias</h3>
+          <p>Fotos antigas com versos escritos à mão. Algumas registram momentos simples. Outras parecem guardar algo que ficou sem ser dito.</p>
+        </article>
+
+        <article class="collection-card">
+          <span class="card-icon">📚</span>
+          <h3>Livros</h3>
+          <p>Livros doados, emprestados ou esquecidos. Alguns carregam dedicatórias, marcações, páginas dobradas e pequenos rastros de quem os leu.</p>
+        </article>
+
+        <article class="collection-card">
+          <span class="card-icon">🎟</span>
+          <h3>Marcadores</h3>
+          <p>Passagens, flores prensadas, bilhetes, listas de compra e pequenos papéis usados para marcar páginas.</p>
+        </article>
+
+        <article class="collection-card">
+          <span class="card-icon">📝</span>
+          <h3>Anotações da mãe</h3>
+          <p>Registros de acontecimentos cotidianos feitos por Maria de Fátima, a antiga bibliotecária.</p>
+        </article>
+
+        <article class="collection-card">
+          <span class="card-icon">🖼</span>
+          <h3>Quadros</h3>
+          <p>Pinturas feitas por crianças, retratos, frases antigas e imagens que revelam a relação da biblioteca com a comunidade.</p>
+        </article>
+
+        <article class="collection-card">
+          <span class="card-icon">☕</span>
+          <h3>Pequenos vestígios</h3>
+          <p>Um casaco esquecido, uma receita, uma cartela de bingo, um gato de pelúcia. Coisas pequenas que permanecem.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="atmosfera" class="section atmosphere-section">
+      <div class="section-header">
+        <p class="section-label">04 — Atmosfera</p>
+        <h2>Chuva, silêncio e papel velho</h2>
+      </div>
+
+      <div class="atmosphere-content">
+        <p>
+          Tinea busca uma atmosfera melancólica e contemplativa, onde o jogador
+          tem tempo para observar os detalhes do ambiente. O jogo acontece entre
+          o silêncio, a chuva, a madeira antiga e os pequenos ruídos de uma
+          biblioteca quase vazia.
+        </p>
+
+        <div class="word-list">
+          <span>chuva</span>
+          <span>silêncio</span>
+          <span>memória</span>
+          <span>saudade</span>
+          <span>interior brasileiro</span>
+          <span>papel velho</span>
+          <span>ventilador antigo</span>
+          <span>poucos diálogos</span>
+          <span>luz fria</span>
+          <span>vestígios</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="estranhamento" class="section dark-section">
+      <div class="section-header">
+        <p class="section-label">05 — Estranhamento</p>
+        <h2>Nem toda memória permanece igual</h2>
+      </div>
+
+      <p class="section-intro">
+        Em Tinea, o terror não existe para substituir a melancolia. Ele aparece
+        de forma sutil, como uma sensação de que algo mudou enquanto ninguém
+        estava olhando.
+      </p>
+
+      <div class="feature-list">
+        <div class="feature-item">
+          <h3>Horror psicológico sutil</h3>
+          <p>O desconforto nasce mais da observação do que de sustos diretos.</p>
+        </div>
+
+        <div class="feature-item">
+          <h3>Ambiente vivo</h3>
+          <p>A biblioteca parece reagir ao que foi visto, lido e lembrado.</p>
+        </div>
+
+        <div class="feature-item">
+          <h3>Memórias instáveis</h3>
+          <p>Alguns detalhes podem parecer diferentes conforme a protagonista avança.</p>
+        </div>
+
+        <div class="feature-item">
+          <h3>Silêncio como tensão</h3>
+          <p>Nem tudo precisa ser explicado para ser sentido.</p>
+        </div>
+      </div>
+
+      <p class="spoiler-note">
+        Esta seção evita detalhes específicos para preservar a experiência do jogo.
+      </p>
+    </section>
+
+    <section id="vibes" class="section vibe-section">
+      <div class="section-header">
+        <p class="section-label">06 — Vibes</p>
+        <h2>Quentinho, mas estranho</h2>
+      </div>
+
+      <p class="section-intro">
+        A sensação principal de Tinea é estar em um lugar aparentemente seguro,
+        quase acolhedor, mas com um frio constante na espinha.
+      </p>
+
+      <div class="vibe-grid">
+        <span>chuva na janela</span>
+        <span>silêncio desconfortável</span>
+        <span>interior brasileiro</span>
+        <span>estrada vazia</span>
+        <span>vento de fim de tarde</span>
+        <span>nostalgia estranha</span>
+        <span>memória quebrada</span>
+        <span>coisas fora do lugar</span>
+        <span>aconchego com medo</span>
+        <span>luz de cozinha à noite</span>
+      </div>
+    </section>
+
+    <section id="inspiracoes" class="section inspiration-section">
+      <div class="section-header">
+        <p class="section-label">07 — Inspirações</p>
+        <h2>Jogos, sentimentos e referências</h2>
+      </div>
+
+      <p class="section-intro">
+        Tinea nasce de uma mistura de jogos narrativos, indies contemplativos,
+        atmosferas melancólicas, horror psicológico e histórias que usam o espaço
+        como forma de contar algo que não cabe apenas em diálogos.
+      </p>
+
+      <div class="inspiration-grid">
+        <article class="inspiration-card">
+          <h3>Sally Face</h3>
+          <p>Pelo mistério, estranheza e sensação de infância marcada por algo errado.</p>
+        </article>
+
+        <article class="inspiration-card">
+          <h3>Fran Bow</h3>
+          <p>Pelo horror psicológico, fantasia sombria e fragilidade emocional.</p>
+        </article>
+
+        <article class="inspiration-card">
+          <h3>Little Misfortune</h3>
+          <p>Pelo contraste entre fofura, humor, tragédia e desconforto.</p>
+        </article>
+
+        <article class="inspiration-card">
+          <h3>Enigma do Medo</h3>
+          <p>Pela investigação, atmosfera brasileira e mistério envolvendo memória e ausência.</p>
+        </article>
+
+        <article class="inspiration-card">
+          <h3>Coffee Talk</h3>
+          <p>Pela sensação de aconchego, conversas íntimas e clima de noite chuvosa.</p>
+        </article>
+
+        <article class="inspiration-card">
+          <h3>Milk Inside / Outside</h3>
+          <p>Pela narrativa fragmentada, subjetiva e desconfortável.</p>
+        </article>
+
+        <article class="inspiration-card">
+          <h3>GRIS</h3>
+          <p>Pela forma visual e sensível de tratar dor, perda e reconstrução.</p>
+        </article>
+
+        <article class="inspiration-card">
+          <h3>OMORI / To the Moon</h3>
+          <p>Pela relação entre memória, afeto, dor e aquilo que fica guardado.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="desenvolvimento" class="section">
+      <div class="section-header">
+        <p class="section-label">08 — Diário</p>
+        <h2>Desenvolvimento</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">02/07/2026</span>
+          <h3>Versão 1.0 do site</h3>
+          <p>
+            Criação da primeira versão do site oficial de Tinea, com chuva,
+            atmosfera de biblioteca, acervo, inspirações e devlog.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">Em breve</span>
+          <h3>Banner em pixel art</h3>
+          <p>
+            Arte principal do site, desenhada pela própria desenvolvedora,
+            ocupando a área inicial da página.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">Em breve</span>
+          <h3>Primeira área jogável</h3>
+          <p>
+            Protótipo inicial da biblioteca na Godot, com movimentação,
+            interação e primeiros objetos examináveis.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact-section">
+      <div class="section-header">
+        <p class="section-label">09 — Sobre o projeto</p>
+        <h2>Feito por Josiane Bueno</h2>
+      </div>
+
+      <p>
+        Tinea é um projeto pessoal em desenvolvimento, criado como um exercício
+        de narrativa, programação, game design, pixel art e memória.
+      </p>
+
+      <div class="contact-links">
+        <a href="https://github.com/Satomoit" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/josiane-de-f%C3%A1tima-bueno-362461326/" target="_blank">LinkedIn</a>
+        <a href="en.html">English Version</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Tinea — um jogo sobre memórias, vestígios e histórias que permanecem.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
