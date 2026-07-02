@@ -18,6 +18,10 @@
 
 > *"Algumas pessoas vão embora. Algumas permanecem. Algumas fazem os dois."*
 
+🌐 **Website:** https://satomoit.github.io/tinea-site/
+
+🎮 **Steam:** Coming Soon
+
 # 📖 Sobre
 
 **Tinea** é um jogo narrativo 2D em pixel art desenvolvido na **Godot Engine**.
