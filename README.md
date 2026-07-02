@@ -6,7 +6,7 @@
 
 ![Status](https://img.shields.io/badge/status-em_desenvolvimento-8b6cff?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/engine-Godot-6aa9ff?style=for-the-badge)
-![Gênero](https://img.shields.io/badge/gênero-Aventura%20Narrativa-cd9fff?style=for-the-badge)
+![Gênero](https://img.shields.io/badge/gênero-Narrativo-cd9fff?style=for-the-badge)
 
 ---
 
