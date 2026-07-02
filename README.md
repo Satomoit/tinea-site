@@ -1,62 +1,65 @@
 <div align="center">
 
-# 🌿 Tinea
+# ❀ Tinea
 
-*A narrative pixel art game about memories, grief and the stories we leave behind.*
+*Um jogo narrativo em pixel art sobre memórias, luto e as histórias que deixamos para trás.*
 
-![Status](https://img.shields.io/badge/status-early_development-8b6cff?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-em_desenvolvimento-8b6cff?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/engine-Godot-6aa9ff?style=for-the-badge)
-![Genre](https://img.shields.io/badge/genre-Narrative%20Adventure-cd9fff?style=for-the-badge)
+![Gênero](https://img.shields.io/badge/gênero-Aventura%20Narrativa-cd9fff?style=for-the-badge)
 
 ---
 
-🇧🇷 Português • [🇺🇸 English](README_EN.md)
+🇧🇷 **Português** • [🇺🇸 English](README_EN.md)
 
 </div>
 
 ---
 
-> *"Some people leave. Some remain. Some do both."*
+> *"Algumas pessoas vão embora. Algumas permanecem. Algumas fazem os dois."*
 
-## 📖 About
+# 📖 Sobre
 
-**Tinea** is a personal narrative game currently being developed in **Godot Engine**.
+**Tinea** é um jogo narrativo 2D em pixel art desenvolvido na **Godot Engine**.
 
-The project combines exploration, environmental storytelling, puzzles, subtle psychological horror and pixel art to tell a story about memory, grief and the traces people leave behind.
+O projeto combina exploração, narrativa ambiental, quebra-cabeças e horror psicológico sutil para contar uma história sobre memória, luto e os pequenos vestígios que as pessoas deixam para trás.
 
-Instead of focusing on combat, Tinea invites the player to observe, explore and connect fragments of forgotten stories hidden throughout an old library.
+Em vez de focar em combate ou ação, Tinea convida o jogador a observar, explorar e compreender as histórias escondidas dentro de uma antiga biblioteca.
 
 ---
 
-## 🌧 Current Status
+# 🚧 Status do Projeto
 
-🚧 Early Development
+Atualmente em desenvolvimento.
 
-Current focus:
+### Atualmente sendo desenvolvido
 
-- Story writing
-- Worldbuilding
-- Character development
+- 📖 Escrita da história
+- 🌎 Worldbuilding
+- 🎨 Pixel Art
+- 🎮 Game Design
+- ⚙️ Desenvolvimento na Godot
+- 🌐 Website oficial
+- 📚 Documentação do projeto
+
+---
+
+# 🎮 Gênero
+
+- Aventura Narrativa
+- Exploração
+- Narrativa Ambiental
+- Quebra-cabeças
+- Horror Psicológico
 - Pixel Art
-- Game Design
-- Godot prototype
-- Official website
 
 ---
 
-## 🎮 Genre
+# 🎨 Inspirações
 
-- Narrative Adventure
-- Exploration
-- Environmental Storytelling
-- Puzzle
-- Psychological Horror
-- Pixel Art
+## Jogos
 
----
-
-## 🎨 Main Inspirations
-
+- Enigma do Medo
 - Sally Face
 - Fran Bow
 - Little Misfortune
@@ -64,63 +67,58 @@ Current focus:
 - OMORI
 - GRIS
 - To the Moon
-- Enigma do Medo
 - Milk inside a bag of milk
 - Milk outside a bag of milk
 
----
+## Atmosfera
 
-## 🌧 Atmosphere
-
-Tinea isn't intended to be a horror game.
-
-It's supposed to feel like...
-
-- rain hitting the window
-- an old library
-- silence
-- warm light on a cold night
-- memories that don't seem entirely real
-- Brazilian countryside
-- forgotten books
-- subtle things out of place
-- nostalgia you can't quite explain
+- chuva na janela
+- bibliotecas antigas
+- silêncio
+- interior brasileiro
+- estradas vazias
+- nostalgia
+- cheiro de livro velho
+- memórias quebradas
+- pequenos detalhes fora do lugar
+- uma sensação constante de conforto e estranheza
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tecnologias
 
 - Godot Engine
 - GDScript
-- Aseprite
-- Krita
-- Git
-- GitHub
 - HTML
 - CSS
 - JavaScript
+- Git
+- GitHub
+- Krita
+- Aseprite
 
 ---
 
-## 📂 Repository Structure
+# 📂 Estrutura do Projeto
 
 ```text
 Tinea
 │
 ├── docs/
-│   ├── Story
-│   ├── Characters
-│   ├── World
-│   ├── Mechanics
-│   ├── Puzzles
+│   ├── História
+│   ├── Personagens
+│   ├── Biblioteca
+│   ├── Mecânicas
+│   ├── Quebra-cabeças
+│   ├── Atmosfera
 │   └── Devlog
 │
 ├── assets/
 │   ├── pixel-art/
 │   ├── concept-art/
-│   ├── animations/
-│   ├── audio/
-│   └── references/
+│   ├── animações/
+│   ├── áudio/
+│   └── referências/
 │
 ├── website/
 │
@@ -129,74 +127,90 @@ Tinea
 
 ---
 
-## 🗺 Roadmap
+# 📓 Development Journal
 
-### Documentation
+Este repositório registra toda a evolução de **Tinea**, desde a primeira ideia até a versão final do jogo.
 
-- [x] Create repository
-- [x] Organize documentation
-- [x] First website
-- [ ] Complete story
-- [ ] Character profiles
-- [ ] Library documentation
-
-### Development
-
-- [ ] Player movement
-- [ ] Interaction system
-- [ ] Dialogue system
-- [ ] Inventory
-- [ ] Save system
-- [ ] First playable area
-
-### Art
-
-- [ ] Main character
-- [ ] Library tileset
-- [ ] UI
-- [ ] First animations
-- [ ] Website banner
+Cada atualização importante será documentada como uma nova entrada do arquivo de desenvolvimento.
 
 ---
 
-## 📚 Devlog
+## 📚 Entry #001
 
-Development started on
+**02 de julho de 2026**
 
-**July 2nd, 2026**
+O desenvolvimento oficial de **Tinea** começou.
 
-Every important milestone of the project will be documented in this repository.
+Nesta primeira etapa foram realizados:
+
+- criação do repositório
+- configuração do Git
+- organização inicial da documentação
+- criação do website oficial
+- definição da identidade visual
+- estrutura inicial da narrativa
+- organização do worldbuilding
+- planejamento do desenvolvimento
 
 ---
 
-## 🌐 Website
+## 📚 Entry #002
 
-Official project website
+**02 de julho de 2026**
 
-*(Coming soon)*
+Primeira versão do website.
+
+Implementado:
+
+- website bilíngue
+- layout responsivo
+- chuva animada
+- efeitos visuais
+- sistema de navegação
+- seção de inspirações
+- apresentação do projeto
+- documentação integrada
 
 ---
 
-## 👩‍💻 Developer
+## 📚 Próximas Entradas
+
+No futuro este diário incluirá registros como:
+
+- primeiro protótipo jogável
+- primeira área da biblioteca
+- implementação dos puzzles
+- criação dos personagens
+- desenvolvimento da trilha sonora
+- atualizações de Pixel Art
+- lançamento da demo
+- página da Steam
+- lançamento oficial
+
+---
+
+# 👩‍💻 Desenvolvedora
 
 **Josiane Bueno**
 
-Computer Science Student
+Graduanda em Ciência da Computação
 
-PUC Minas — Brazil
+PUC Minas — Brasil
 
-GitHub: https://github.com/Satomoit
+GitHub  
+https://github.com/Satomoit
 
-LinkedIn: https://www.linkedin.com/in/josiane-de-f%C3%A1tima-bueno-362461326/
+LinkedIn  
+https://www.linkedin.com/in/josiane-de-f%C3%A1tima-bueno-362461326/
 
 ---
 
-## 📜 License
+# 📜 Licença
 
-This project is currently under development.
+Este projeto encontra-se em desenvolvimento.
 
-All characters, story, artwork, music, documentation and assets belong to the author unless otherwise stated.
+Todos os personagens, história, artes, músicas, documentos e demais conteúdos pertencem à autora, salvo quando indicado o contrário.
 
-Please do not redistribute or reuse project assets without permission.
+Por favor, não redistribua ou reutilize os arquivos deste projeto sem autorização.
 
-© 2026 Josiane Bueno. All rights reserved.
+© 2026 Josiane Bueno. Todos os direitos reservados.
