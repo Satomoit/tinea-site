@@ -18,6 +18,10 @@
 
 > *"Some people leave. Some remain. Some do both."*
 
+🌐 **Website:** https://satomoit.github.io/tinea-site/
+
+🎮 **Steam:** Coming Soon
+
 # 📖 About
 
 **Tinea** is a 2D narrative pixel art game currently being developed using the **Godot Engine**.
