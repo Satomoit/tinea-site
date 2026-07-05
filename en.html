@@ -1,15 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Tinea | Narrative pixel art game</title>
+  <title>Tinea | Narrative game about memories and traces</title>
 
   <meta
     name="description"
-    content="Tinea is a 2D narrative pixel art game about memory, grief, rain, libraries, small traces, and the stories that remain after someone is gone."
+    content="Tinea is an independent narrative game about memory, grief, libraries, small traces, and stories that remain after someone is gone."
   />
 
   <link rel="stylesheet" href="style.css" />
@@ -20,19 +19,20 @@
   <div class="noise-layer" aria-hidden="true"></div>
 
   <button class="audio-toggle" type="button" aria-label="Turn on ambient sound">
-    ☔ Library sound
+    library sound
   </button>
 
   <header class="site-header">
     <nav class="navbar">
-      <a href="#home" class="logo">✦ Tinea</a>
+      <a href="#home" class="logo">❀ Tinea</a>
 
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#library">Library</a>
         <a href="#archive">Archive</a>
+        <a href="#philosophy">Philosophy</a>
         <a href="#atmosphere">Atmosphere</a>
-        <a href="#vibes">Vibes</a>
+        <a href="#registry">Book of Records</a>
         <a href="#inspirations">Inspirations</a>
         <a href="#development">Devlog</a>
         <a href="index.html" class="language-button">Português</a>
@@ -43,7 +43,7 @@
   <main>
     <section id="home" class="hero">
       <div class="hero-frame">
-        <p class="eyebrow">narrative pixel art game</p>
+        <p class="eyebrow">independent narrative game</p>
 
         <h1>Tinea</h1>
 
@@ -52,15 +52,16 @@
         </p>
 
         <p class="hero-description">
-          After her mother's death, a woman returns to her hometown to empty
-          a library that has been closed for months. Among books, photographs,
-          notes, and old records, she finds memories that perhaps should not exist.
+          After her mother’s death, a woman returns to her hometown to organize
+          the old library her mother cared for during most of her life. Among
+          forgotten books, photographs, letters, and old records, she begins to
+          understand a person she can no longer ask questions to.
         </p>
 
         <div class="status-row">
-          <span>🌧 Website started on 07/02/2026</span>
-          <span>Version 1.0</span>
-          <span>In development</span>
+          <span>website started on 07/02/2026</span>
+          <span>version 1.0</span>
+          <span>in development</span>
         </div>
 
         <div class="hero-buttons">
@@ -71,7 +72,7 @@
 
       <div class="hero-note">
         <span>note found at the front desk</span>
-        <p>“Some people leave. Some remain. Some do both.”</p>
+        <p>“Some people leave. Some stay. Some somehow do both.”</p>
       </div>
     </section>
 
@@ -84,23 +85,28 @@
       <div class="two-columns">
         <div>
           <p>
-            <strong>Tinea</strong> is a 2D narrative pixel art game developed
-            with the <strong>Godot Engine</strong>, focused on exploration,
-            environmental storytelling, puzzles, and subtle psychological horror.
+            <strong>Tinea</strong> is an independent narrative game currently
+            in development.
           </p>
 
           <p>
-            The story follows a protagonist who returns to her family’s old
-            library after the death of her mother. While organizing the place,
-            she finds objects left behind by people who passed through the library
-            over the years.
+            The story follows a woman who returns to her hometown after the death
+            of her mother. What was supposed to be just a few days organizing an
+            old library gradually becomes a journey through memories, forgotten
+            objects, and small traces left behind by people who passed through
+            that place over decades.
           </p>
 
           <p>
-            Each item carries a small story: a photograph, a note, a forgotten
-            book, a pressed flower, a hurried annotation. Little by little, these
-            traces reveal not only her mother’s life, but also the collective
-            memory of a community.
+            The game uses exploration, environmental storytelling, and subtle
+            psychological suspense to tell a story about memory, grief, and the
+            way people continue to exist through the things they leave behind.
+          </p>
+
+          <p>
+            Instead of focusing on combat or constant action, <strong>Tinea</strong>
+            invites the player to observe, explore, and understand the stories
+            hidden among shelves, photographs, letters, and old books.
           </p>
         </div>
 
@@ -130,7 +136,7 @@
 
       <p class="section-intro">
         The library is not only a setting. It works as an archive of small lives,
-        keeping objects, records, and moments from ordinary people.
+        keeping objects, records, and ordinary moments from ordinary people.
       </p>
 
       <div class="location-grid">
@@ -179,67 +185,102 @@
 
       <div class="collection-grid">
         <article class="collection-card">
-          <span class="card-icon">📷</span>
+          <span class="card-icon">photographs</span>
           <h3>Photographs</h3>
           <p>Old photos with handwritten notes on the back. Some capture simple moments. Others seem to hold something left unsaid.</p>
         </article>
 
         <article class="collection-card">
-          <span class="card-icon">📚</span>
+          <span class="card-icon">books</span>
           <h3>Books</h3>
           <p>Donated, borrowed, or forgotten books. Some carry dedications, markings, folded pages, and small traces of those who read them.</p>
         </article>
 
         <article class="collection-card">
-          <span class="card-icon">🎟</span>
+          <span class="card-icon">bookmarks</span>
           <h3>Bookmarks</h3>
           <p>Tickets, pressed flowers, notes, shopping lists, and small pieces of paper used to mark pages.</p>
         </article>
 
         <article class="collection-card">
-          <span class="card-icon">📝</span>
+          <span class="card-icon">notes</span>
           <h3>Mother’s notes</h3>
-          <p>Records of everyday events written by Maria de Fátima, the former librarian.</p>
+          <p>Records of everyday moments written by Maria de Fátima, the former librarian.</p>
         </article>
 
         <article class="collection-card">
-          <span class="card-icon">🖼</span>
+          <span class="card-icon">paintings</span>
           <h3>Paintings</h3>
           <p>Paintings made by children, portraits, old phrases, and images that reveal the library’s connection with the community.</p>
         </article>
 
         <article class="collection-card">
-          <span class="card-icon">☕</span>
+          <span class="card-icon">traces</span>
           <h3>Small traces</h3>
           <p>A forgotten coat, a recipe, a bingo card, a plush cat. Small things that remain.</p>
         </article>
       </div>
     </section>
 
+    <section id="philosophy" class="section dark-section">
+      <div class="section-header">
+        <p class="section-label">04 — Philosophy</p>
+        <h2>Small objects, large stories</h2>
+      </div>
+
+      <p class="section-intro">
+        Tinea believes small objects can tell large stories.
+      </p>
+
+      <div class="feature-list">
+        <div class="feature-item">
+          <h3>The library as an archive</h3>
+          <p>The library is not only a setting, but an archive of lives, affection, and absence.</p>
+        </div>
+
+        <div class="feature-item">
+          <h3>Narrative through details</h3>
+          <p>Every photograph, letter, dedication, or annotated book represents a trace left by someone.</p>
+        </div>
+
+        <div class="feature-item">
+          <h3>No rush</h3>
+          <p>The player is invited to observe, return, reread, and slowly assemble the stories.</p>
+        </div>
+
+        <div class="feature-item">
+          <h3>Silence also speaks</h3>
+          <p>Not everything needs to be explained in order to be felt. Some memories remain in what was never said.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="atmosphere" class="section atmosphere-section">
       <div class="section-header">
-        <p class="section-label">04 — Atmosphere</p>
+        <p class="section-label">05 — Atmosphere</p>
         <h2>Rain, silence, and old paper</h2>
       </div>
 
       <div class="atmosphere-content">
         <p>
-          Tinea aims for a melancholic and contemplative atmosphere, where the
-          player has time to observe the details of the environment. The game
-          exists between silence, rain, old wood, and the small noises of an
-          almost empty library.
+          Rather than constantly trying to scare the player, Tinea seeks to evoke
+          a lingering feeling of nostalgia, silence, and quiet unease.
+        </p>
+
+        <p>
+          The library is both welcoming and unsettling. A place where the scent
+          of old books, rain against the windows, and forgotten objects seem to
+          preserve memories that refuse to disappear.
         </p>
 
         <div class="word-list">
+          <span>Brazilian countryside</span>
+          <span>old library</span>
           <span>rain</span>
           <span>silence</span>
           <span>memory</span>
           <span>longing</span>
-          <span>Brazilian countryside</span>
           <span>old paper</span>
-          <span>old fan</span>
-          <span>few dialogues</span>
-          <span>cold light</span>
           <span>traces</span>
         </div>
       </div>
@@ -247,18 +288,18 @@
 
     <section id="uncanny" class="section dark-section">
       <div class="section-header">
-        <p class="section-label">05 — The uncanny</p>
+        <p class="section-label">06 — The uncanny</p>
         <h2>Not every memory stays the same</h2>
       </div>
 
       <p class="section-intro">
-        In Tinea, horror does not exist to replace melancholy. It appears
+        In Tinea, suspense does not exist to replace melancholy. It appears
         quietly, like the feeling that something changed while no one was looking.
       </p>
 
       <div class="feature-list">
         <div class="feature-item">
-          <h3>Subtle psychological horror</h3>
+          <h3>Subtle psychological suspense</h3>
           <p>Discomfort comes more from observation than from direct jumpscares.</p>
         </div>
 
@@ -283,108 +324,134 @@
       </p>
     </section>
 
-    <section id="vibes" class="section vibe-section">
+    <section id="registry" class="section">
       <div class="section-header">
-        <p class="section-label">06 — Vibes</p>
-        <h2>Warm, but strange</h2>
+        <p class="section-label">07 — Book of Records</p>
+        <h2>The library keeps receiving visitors</h2>
       </div>
 
-      <p class="section-intro">
-        The main feeling of Tinea is being somewhere that feels almost safe,
-        almost warm, while something cold remains under the skin.
-      </p>
+      <div class="two-columns">
+        <div>
+          <p>
+            Throughout the game, the Book of Records works as a readable object:
+            an old notebook left inside the library, filled with notes, names,
+            and small events recorded over the years.
+          </p>
 
-      <div class="vibe-grid">
-        <span>rain on the window</span>
-        <span>uncomfortable silence</span>
-        <span>Brazilian countryside</span>
-        <span>empty road</span>
-        <span>late afternoon wind</span>
-        <span>strange nostalgia</span>
-        <span>broken memory</span>
-        <span>things out of place</span>
-        <span>comfort with fear</span>
-        <span>kitchen light at night</span>
+          <p>
+            By the end of the experience, a new possibility appears. The player
+            may leave a small trace of their own, as if they had also passed
+            through that library.
+          </p>
+
+          <p>
+            This idea is still in development, but it comes from the desire to
+            turn the act of playing into one more memory preserved by the space.
+          </p>
+        </div>
+
+        <aside class="pixel-window">
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="window-content">
+            <p class="mini-title">book of records</p>
+            <p>
+              The library keeps receiving visitors.
+            </p>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section id="inspirations" class="section inspiration-section">
+    <section id="inspirations" class="section inspiration-section dark-section">
       <div class="section-header">
-        <p class="section-label">07 — Inspirations</p>
+        <p class="section-label">08 — Inspirations</p>
         <h2>Games, feelings, and references</h2>
       </div>
 
       <p class="section-intro">
-        Tinea comes from a mix of narrative games, contemplative indie projects,
-        melancholic atmospheres, psychological horror, and stories that use space
-        itself as a way to say what dialogue alone cannot.
+        Tinea is inspired by works that tell stories through small details,
+        objects, environments, and silence.
       </p>
 
       <div class="inspiration-grid">
         <article class="inspiration-card">
-          <h3>Sally Face</h3>
-          <p>For its mystery, strangeness, and the feeling of a childhood marked by something wrong.</p>
+          <h3>What Remains of Edith Finch</h3>
+          <p>For its environmental storytelling and the way objects and spaces reveal family histories.</p>
         </article>
 
         <article class="inspiration-card">
-          <h3>Fran Bow</h3>
-          <p>For its psychological horror, dark fantasy, and emotional fragility.</p>
+          <h3>Life is Strange</h3>
+          <p>For its contemplative pacing, everyday details, and the emotional weight of photographs, choices, and memories.</p>
         </article>
 
         <article class="inspiration-card">
-          <h3>Little Misfortune</h3>
-          <p>For its contrast between cuteness, humor, tragedy, and discomfort.</p>
+          <h3>To the Moon / A Bird Story</h3>
+          <p>For their relationship between memory, affection, loss, and small scenes capable of carrying deep emotion.</p>
         </article>
 
         <article class="inspiration-card">
-          <h3>Enigma do Medo</h3>
-          <p>For its investigation, Brazilian atmosphere, and mystery around memory and absence.</p>
+          <h3>OMORI / GRIS</h3>
+          <p>For their symbolic approach to pain, trauma, grief, reconstruction, and feelings that are difficult to name.</p>
         </article>
 
         <article class="inspiration-card">
-          <h3>Coffee Talk</h3>
-          <p>For its cozy feeling, intimate conversations, and rainy night mood.</p>
+          <h3>Celeste</h3>
+          <p>For its emotional journey and the idea of transforming internal conflicts into game language.</p>
         </article>
 
         <article class="inspiration-card">
-          <h3>Milk Inside / Outside</h3>
-          <p>For its fragmented, subjective, and uncomfortable narrative.</p>
+          <h3>The Last Report</h3>
+          <p>For its atmosphere of suspense, observation, and exploration of environments filled with quiet tension.</p>
         </article>
 
         <article class="inspiration-card">
-          <h3>GRIS</h3>
-          <p>For its visual and sensitive way of portraying pain, loss, and reconstruction.</p>
+          <h3>Sally Face / Fran Bow / Dollmare</h3>
+          <p>For their psychological suspense, strangeness, and discomfort created more through atmosphere than direct scares.</p>
         </article>
 
         <article class="inspiration-card">
-          <h3>OMORI / To the Moon</h3>
-          <p>For their relationship between memory, affection, pain, and what remains hidden.</p>
+          <h3>A Space for the Unbound / Coffee Talk</h3>
+          <p>For their slow pacing, human relationships, and appreciation for quiet everyday moments.</p>
         </article>
       </div>
     </section>
 
     <section id="development" class="section">
       <div class="section-header">
-        <p class="section-label">08 — Journal</p>
+        <p class="section-label">09 — Journal</p>
         <h2>Development</h2>
       </div>
 
       <div class="timeline">
         <article class="timeline-item">
-          <span class="timeline-date">07/02/2026</span>
-          <h3>Website version 1.0</h3>
+          <span class="timeline-date">06/29/2026</span>
+          <h3>First narrative definitions</h3>
           <p>
-            Creation of the first version of Tinea's official website, with rain,
-            library atmosphere, archive, inspirations, and devlog.
+            Initial project organization, Obsidian structure, and writing of
+            the first story moment, focused on the protagonist’s arrival at the library.
           </p>
         </article>
 
         <article class="timeline-item">
-          <span class="timeline-date">Coming soon</span>
-          <h3>Pixel art banner</h3>
+          <span class="timeline-date">06/30/2026</span>
+          <h3>First Godot prototype</h3>
           <p>
-            Main artwork for the website, drawn by the developer, occupying the
-            opening area of the page.
+            Creation of the first playable version, with movement, an interactable
+            object, and a functional text box.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">07/02/2026</span>
+          <h3>Website version 1.0</h3>
+          <p>
+            Creation of the first version of Tinea’s official website, with rain,
+            library atmosphere, archive, inspirations, and project presentation.
           </p>
         </article>
 
@@ -392,8 +459,8 @@
           <span class="timeline-date">Coming soon</span>
           <h3>First playable area</h3>
           <p>
-            Initial prototype of the library in Godot, with movement, interaction,
-            and the first examinable objects.
+            Initial library prototype in Godot, with interaction, object reading,
+            and first atmosphere elements.
           </p>
         </article>
       </div>
@@ -401,14 +468,14 @@
 
     <section id="contact" class="section contact-section">
       <div class="section-header">
-        <p class="section-label">09 — About the project</p>
-        <h2>Made by Josiane Bueno</h2>
-        <h>@satomoit</h>
+        <p class="section-label">10 — About the project</p>
+        <h2>Made by Satomoit</h2>
+        <p class="mini-title">Josiane Bueno</p>
       </div>
 
       <p>
         Tinea is a personal project in development, created as an exercise in
-        storytelling, programming, game design, pixel art, and memory.
+        narrative, programming, game design, art direction, and memory.
       </p>
 
       <div class="contact-links">
@@ -420,10 +487,9 @@
   </main>
 
   <footer class="footer">
-    <p>Tinea — a game about memories, traces, and the stories that remain.</p>
+    <p>Tinea — a game about memories, traces, and stories that remain.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-</html> 
-
+</html>
