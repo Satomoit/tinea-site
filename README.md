@@ -2,11 +2,10 @@
 
 # ❀ Tinea
 
-*Um jogo narrativo em pixel art sobre memórias, luto e as histórias que deixamos para trás.*
+*Um jogo narrativo sobre memórias, luto e os vestígios que as pessoas deixam para trás.*
 
 ![Status](https://img.shields.io/badge/status-em_desenvolvimento-8b6cff?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/engine-Godot-6aa9ff?style=for-the-badge)
-![Gênero](https://img.shields.io/badge/gênero-Narrativo-cd9fff?style=for-the-badge)
 
 ---
 
@@ -18,203 +17,142 @@
 
 > *"Algumas pessoas vão embora. Algumas permanecem. Algumas fazem os dois."*
 
-🌐 **Website:** https://satomoit.github.io/tinea-site/
+🌐 Website oficial: https://satomoit.github.io/tinea-site/
 
-🎮 **Steam:** Coming Soon
-
-# 📖 Sobre
-
-**Tinea** é um jogo narrativo 2D em pixel art desenvolvido na **Godot Engine**.
-
-O projeto combina exploração, narrativa ambiental, quebra-cabeças e horror psicológico sutil para contar uma história sobre memória, luto e os pequenos vestígios que as pessoas deixam para trás.
-
-Em vez de focar em combate ou ação, Tinea convida o jogador a observar, explorar e compreender as histórias escondidas dentro de uma antiga biblioteca.
+🎮 Steam: Coming Soon
 
 ---
 
-# 🚧 Status do Projeto
+# Sobre
 
-Atualmente em desenvolvimento.
+**Tinea** é um jogo narrativo independente atualmente em desenvolvimento.
 
-### Atualmente sendo desenvolvido
+A história acompanha uma mulher que retorna para sua cidade natal após a morte da mãe. O que deveria ser apenas alguns dias organizando uma antiga biblioteca acaba se transformando em uma jornada através de memórias, objetos esquecidos e pequenos vestígios deixados por pessoas que passaram por aquele lugar durante décadas.
 
-- 📖 Escrita da história
-- 🌎 Worldbuilding
-- 🎨 Pixel Art
-- 🎮 Game Design
-- ⚙️ Desenvolvimento na Godot
-- 🌐 Website oficial
-- 📚 Documentação do projeto
+O jogo utiliza exploração, narrativa ambiental e elementos sutis de suspense psicológico para contar uma história sobre memória, luto e a forma como continuamos existindo através das coisas que deixamos para trás. Ao invés de combate ou ação constante, **Tinea** convida o jogador a observar, explorar e compreender as histórias escondidas entre estantes, fotografias, cartas e livros antigos.
 
 ---
 
-# 🎮 Gênero
+# Status
 
-- Aventura Narrativa
-- Exploração
-- Narrativa Ambiental
-- Quebra-cabeças
-- Horror Psicológico
-- Pixel Art
+Tinea ainda está em desenvolvimento e muitas ideias podem mudar durante o processo.
 
----
+## Atualmente
 
-# 🎨 Inspirações
+- escrita do roteiro
+- desenvolvimento da narrativa
+- documentação do projeto
+- organização do worldbuilding
+- desenvolvimento do website
+- primeiros protótipos na Godot
 
-## Jogos
+## Planejado
 
-- Enigma do Medo
-- Sally Face
-- Fran Bow
-- Little Misfortune
-- Coffee Talk
-- OMORI
-- GRIS
-- To the Moon
-- Milk inside a bag of milk
-- Milk outside a bag of milk
-
-## Atmosfera
-
-- chuva na janela
-- bibliotecas antigas
-- silêncio
-- interior brasileiro
-- estradas vazias
-- nostalgia
-- cheiro de livro velho
-- memórias quebradas
-- pequenos detalhes fora do lugar
-- uma sensação constante de conforto e estranheza
+- definição da direção artística
+- criação dos cenários
+- pixel art
+- trilha sonora
+- interface
+- mecânicas principais
+- sistema de interação
+- implementação do Livro de Registros
+- primeira versão jogável
 
 ---
 
-# 🛠 Tecnologias
+# Possível Gênero
+
+- narrativo
+- exploração
+- suspense psicológico
+- drama
+- cozy melancólico
+- atmosfera contemplativa
+
+---
+
+# Inspirações
+
+Tinea nasce da admiração por obras que contam histórias através de pequenos detalhes, objetos, ambientes e silêncios.
+
+Jogos como **What Remains of Edith Finch**, **Life is Strange**, **To the Moon**, **A Bird Story**, **OMORI**, **GRIS** e **Arise: A Simple Story** inspiram a forma como o projeto aborda memória, luto, relações humanas e emoções.
+
+**Celeste** influencia principalmente a construção da jornada emocional da protagonista, mostrando como conflitos internos podem ser representados através da linguagem do jogo.
+
+Já **The Last Report**, **Sally Face**, **Dollmare** e **Fran Bow** influenciam a atmosfera de suspense psicológico, enquanto **A Space for the Unbound** e **Coffee Talk** inspiram o ritmo contemplativo e a valorização de pequenos momentos cotidianos.
+
+Mais do que reproduzir mecânicas específicas, essas obras ajudam a construir a identidade narrativa, visual e emocional de Tinea.
+
+---
+
+# Atmosfera
+
+Mais do que criar medo, Tinea busca despertar uma sensação constante de nostalgia, silêncio e estranheza.
+
+A biblioteca é um lugar acolhedor, mas também inquietante. Um espaço onde o cheiro de livros antigos, a chuva nas janelas e os objetos esquecidos parecem guardar memórias que se recusam a desaparecer.
+
+---
+
+# Tecnologias
+
+## Jogo
 
 - Godot Engine
 - GDScript
+- Krita
+- Aseprite
+
+## Website
+
 - HTML
 - CSS
 - JavaScript
 - Git
 - GitHub
-- Krita
-- Aseprite
+- Visual Studio Code
+
+## Organização
+
+- Obsidian
 
 ---
 
-# 📂 Estrutura do Projeto
+# Sobre este repositório
 
-```text
-Tinea
-│
-├── docs/
-│   ├── História
-│   ├── Personagens
-│   ├── Biblioteca
-│   ├── Mecânicas
-│   ├── Quebra-cabeças
-│   ├── Atmosfera
-│   └── Devlog
-│
-├── assets/
-│   ├── pixel-art/
-│   ├── concept-art/
-│   ├── animações/
-│   ├── áudio/
-│   └── referências/
-│
-├── website/
-│
-└── godot/
-```
+Este repositório contém exclusivamente o código-fonte do website oficial de **Tinea**.
+
+A documentação interna do desenvolvimento, roteiros, worldbuilding e organização do projeto são mantidos separadamente durante o desenvolvimento.
 
 ---
 
-# 📓 Development Journal
+# Desenvolvedora
 
-Este repositório registra toda a evolução de **Tinea**, desde a primeira ideia até a versão final do jogo.
+**Satomoit**
 
-Cada atualização importante será documentada como uma nova entrada do arquivo de desenvolvimento.
-
----
-
-## 📚 Entry #001
-
-**02 de julho de 2026**
-
-O desenvolvimento oficial de **Tinea** começou.
-
-Nesta primeira etapa foram realizados:
-
-- criação do repositório
-- configuração do Git
-- organização inicial da documentação
-- criação do website oficial
-- definição da identidade visual
-- estrutura inicial da narrativa
-- organização do worldbuilding
-- planejamento do desenvolvimento
-
----
-
-## 📚 Entry #002
-
-**02 de julho de 2026**
-
-Primeira versão do website.
-
-Implementado:
-
-- website bilíngue
-- layout responsivo
-- chuva animada
-- efeitos visuais
-- sistema de navegação
-- seção de inspirações
-- apresentação do projeto
-- documentação integrada
-
----
-
-## 📚 Próximas Entradas
-
-No futuro este diário incluirá registros como:
-
-- primeiro protótipo jogável
-- primeira área da biblioteca
-- implementação dos puzzles
-- criação dos personagens
-- desenvolvimento da trilha sonora
-- atualizações de Pixel Art
-- lançamento da demo
-- página da Steam
-- lançamento oficial
-
----
-
-# 👩‍💻 Desenvolvedora
-
-**Josiane Bueno**
+Também conhecida como **Josiane Bueno**
 
 Graduanda em Ciência da Computação
 
 PUC Minas — Brasil
 
-GitHub  
+GitHub
+
 https://github.com/Satomoit
 
-LinkedIn  
+LinkedIn
+
 https://www.linkedin.com/in/josiane-de-f%C3%A1tima-bueno-362461326/
 
 ---
 
-# 📜 Licença
+# Licença
 
-Este projeto encontra-se em desenvolvimento.
+Tinea é um projeto autoral atualmente em desenvolvimento.
 
-Todos os personagens, história, artes, músicas, documentos e demais conteúdos pertencem à autora, salvo quando indicado o contrário.
+Salvo indicação em contrário, todos os personagens, história, artes, músicas, textos, documentos, imagens e demais conteúdos pertencem à autora.
 
-Por favor, não redistribua ou reutilize os arquivos deste projeto sem autorização.
+Este repositório contém apenas o código do website oficial.
 
-© 2026 Josiane Bueno. Todos os direitos reservados.
+Por favor, não reutilize qualquer conteúdo do projeto sem autorização.
+
+© 2026 Satomoit (Josiane Bueno). Todos os direitos reservados.
